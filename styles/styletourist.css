@@ -1,0 +1,83 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+
+
+.background-pic {
+    width : 100%;
+    height : 200%;
+    background-image: url(../images/background.jpg);
+    position : relative;
+}
+
+.content{
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    font-family: Helvetica;
+    top: 1%;
+    left: 25%;
+    font-size: 1vw;
+}
+
+
+
+
+.sidebar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    width: 0;
+    height: 100vh;
+    background-color: darkorange;
+    transition: 1s;
+}
+#side-button {
+    position : relative;
+    z-index: 1;
+    width: 75px;
+    height : 75px;
+    top : 0;
+    left : 0;
+    background-image: url(../images/arrow.png);
+    background-size : cover;
+    transition: 1s;
+}
+.sidebar a{
+    position : relative;
+    display: none;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 1vw;
+    color: aliceblue;
+    line-height: 3;
+    top : 1%;
+    border: 1px solid #000;
+    width: 0;
+    transition: 0.5s;
+}
+
+.sidebar #rectangles{
+    position: relative;
+    display: block;
+    width: 0;
+    height: 1vh;
+    border: 1px solid #000;
+    background-color: rgb(94, 0, 0);
+    top : 0;
+    left : 0;
+    transition: 1s;
+}
+.sidebar #rec2 {
+    position: relative;
+    width: 0;
+    height: 8.3vh;
+    border: 1px solid #000;
+    background-color: rgb(22, 0, 74);
+    top: 0;
+    left: 0;
+    font-size: 1vw;
+    text-align: center;
+    color: aliceblue;
+    transition: 1s;
+}
